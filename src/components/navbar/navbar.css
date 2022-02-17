@@ -2,7 +2,6 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-
     padding: 2rem 6rem;
 }
 
@@ -46,8 +45,8 @@
     cursor: pointer;
 }
 
-.portfolio__navbar-resume button,
-.portfolio__navbar-menu_container button {
+.portfolio__navbar-resume .button,
+.portfolio__navbar-menu_container .button {
     padding: 0.5rem 1rem;
     color: #fff;
     background: #FF4820;
@@ -59,6 +58,11 @@
     outline: none;
     cursor: pointer;
     border-radius: 5px;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    -ms-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
 }
 
 .portfolio__navbar-menu {

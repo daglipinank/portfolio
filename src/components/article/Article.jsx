@@ -1,5 +1,6 @@
-import React from 'react';
-import './article.css';
+import React from 'react'
+import PropTypes from 'prop-types'
+import './article.css'
 
 const Article = ({ imgUrl, date, text }) => (
   <div className="portfolio__blog-container_article">
@@ -15,5 +16,11 @@ const Article = ({ imgUrl, date, text }) => (
     </div>
   </div>
 );
+
+Article.propTypes = {
+  imgUrl: PropTypes.string,
+  date: PropTypes.date,
+  text: PropTypes.string
+}
 
 export default Article;

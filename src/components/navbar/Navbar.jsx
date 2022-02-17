@@ -1,6 +1,7 @@
-import React, { useState } from 'react';
-import { RiMenu3Line, RiCloseLine, RiDownload2Fill } from 'react-icons/ri';
-import logo from '../../assets/PinankLogo.png';
+import React, { useState } from 'react'
+import { RiMenu3Line, RiCloseLine, RiDownload2Fill } from 'react-icons/ri'
+import logo from '../../assets/PinankLogo.png'
+import resumepdf from '../../assets/Pinank_Dagli__Resume_2022.pdf'
 import './navbar.css';
 
 const Navbar = () => {
@@ -14,13 +15,15 @@ const Navbar = () => {
         </div>
         <div className="portfolio__navbar-links_container">
           <p><a href="#home">Home</a></p>
-          <p><a href="#career">Career</a></p>
-          <p><a href="#aboutMe">About Me</a></p>
-          {/* <p><a href="#Projects">Projects</a></p> */}
+          <p><a href="#socials">Socials</a></p>
+          <p><a href="#education">Education</a></p>
+          <p><a href="#workEx">Work Experience</a></p>
         </div>
       </div>
       <div className="portfolio__navbar-resume">
-        <button type="button">Resume</button>
+        <a className="button" href={resumepdf} target="_blank" rel="noreferrer">
+          <RiDownload2Fill color="#fff" margin-bottom="-3px"/>   Resume
+        </a>
       </div>
       <div className="portfolio__navbar-menu">
         {toggleMenu
@@ -30,14 +33,14 @@ const Navbar = () => {
         <div className="portfolio__navbar-menu_container scale-up-center">
           <div className="portfolio__navbar-menu_container-links">
             <p><a href="#home">Home</a></p>
-            <p><a href="#career">Career</a></p>
-            <p><a href="#aboutMe">About Me</a></p>
-            {/* <p><a href="#Projects">Projects</a></p> */}
+            <p><a href="#socials">Socials</a></p>
+            <p><a href="#education">Education</a></p>
+            <p><a href="#workEx">Work Experience</a></p>
           </div>
           <div className="portfolio__navbar-menu_container-links-resume">
-            <button type="button">
-              <RiDownload2Fill color="#fff" size={27}/>Resume
-            </button>
+            <a className="button" href={resumepdf} target="_blank" rel="noreferrer">
+              <RiDownload2Fill color="#fff" margin-bottom="-3px"/>   Resume
+            </a>
           </div>
         </div>
         )}

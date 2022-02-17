@@ -1,7 +1,7 @@
 import React from 'react'
 import './app.css'
 
-import { Footer, Resume, Projects, AboutMe, Header } from './containers'
+import { Footer, Resume, AboutMe, Header } from './containers'
 import { Brand,Navbar } from './components'
 
 const App = () => {
@@ -14,7 +14,6 @@ const App = () => {
        <Brand />
        <AboutMe />
        <Resume />
-       {/* <Projects /> */}
        <Footer />
     </div>
   )

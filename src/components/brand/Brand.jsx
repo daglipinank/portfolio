@@ -4,7 +4,7 @@ import { RiFacebookCircleFill, RiTwitterFill, RiLinkedinBoxFill, RiInstagramFill
 
 const Brand = () => {
   return (
-    <div className="portfolio__brand section__padding">
+    <div id="socials" className="portfolio__brand section__padding">
     <div>
       <a href="https://www.facebook.com/pinank.dagli" target="_blank" rel="noreferrer">
         <RiFacebookCircleFill color="#fff" size={40}/>

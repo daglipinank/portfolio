@@ -1,6 +1,5 @@
 import React from 'react';
 import logo from '../../assets/PinankLogo.png';
-import { RiFacebookCircleFill, RiTwitterFill, RiLinkedinBoxFill, RiInstagramFill, RiGithubFill } from 'react-icons/ri'
 import './footer.css';
 
 const Footer = () => (
