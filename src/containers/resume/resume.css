@@ -58,3 +58,10 @@
         line-height: 38px;
     }
 }
+
+@media screen and (max-width: 450px) {
+    /* Customizing feature component as per needs */
+    .portfolio__features-container__feature {
+        display: block;
+    }
+}
