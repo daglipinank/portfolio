@@ -4,7 +4,7 @@ import './resume.css'
 
 const featuresData = [
   {
-    title: `Team Leader Engineering
+    title: `Engineering Manager
     Rocket Loans
     Detroit, MI`,
     subtitle: '2020 to 2022',
@@ -18,7 +18,7 @@ const featuresData = [
     Work with MySQL RDS databases to make and manage platform optimization, improvements for automation opportunities on the loan platform.`,
   },
   {
-    title: `Software Engineer
+    title: `Software Engineer / Sr. Software Engineer
     Rocket Loans / Quicken loans (now Rocket Mortgage)
     Detroit, MI`,
     subtitle: '2015 to 2020',
