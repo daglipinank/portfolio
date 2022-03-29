@@ -4,7 +4,7 @@ import './resume.css'
 
 const featuresData = [
   {
-    title: `Engineering Manager
+    title: `Team Leader, Engineering
     Rocket Loans
     Detroit, MI`,
     subtitle: '2020 to 2022',
