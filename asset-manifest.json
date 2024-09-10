@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.f8820196.css",
-    "main.js": "/portfolio/static/js/main.24b4e898.js",
+    "main.css": "/portfolio/static/css/main.b431a815.css",
+    "main.js": "/portfolio/static/js/main.7a22a072.js",
     "static/media/Pinank.jpg": "/portfolio/static/media/Pinank.8bb52b39228aae7cb855.jpg",
-    "static/media/Pinank_Dagli__Resume_2022.pdf": "/portfolio/static/media/Pinank_Dagli__Resume_2022.a64e4deb69bf8c25034e.pdf",
+    "static/media/Pinank-Dagli-Engineering Manager 2024.pdf": "/portfolio/static/media/Pinank-Dagli-Engineering Manager 2024.5eb56cd6b2a8cc90ece5.pdf",
     "static/media/PinankLogo.png": "/portfolio/static/media/PinankLogo.faa85391ed420239656f.png",
     "index.html": "/portfolio/index.html",
-    "main.f8820196.css.map": "/portfolio/static/css/main.f8820196.css.map",
-    "main.24b4e898.js.map": "/portfolio/static/js/main.24b4e898.js.map"
+    "main.b431a815.css.map": "/portfolio/static/css/main.b431a815.css.map",
+    "main.7a22a072.js.map": "/portfolio/static/js/main.7a22a072.js.map"
   },
   "entrypoints": [
-    "static/css/main.f8820196.css",
-    "static/js/main.24b4e898.js"
+    "static/css/main.b431a815.css",
+    "static/js/main.7a22a072.js"
   ]
 }
