@@ -7,8 +7,11 @@ const Header = () => {
     <div className="portfolio__header section__padding">
       <div className="portfolio__header-content">
         <h1 className="gradient__text">Hi, I am Pinank Dagli</h1>
-        <p>Leading a highly motivated engineering team to build financial technology solutions/services for a highly scalable and automated lending platform.</p>
-        <p>Experienced full stack engineer with a demonstrated 7+ years and skilled in React.js, Javascript/TypeScript (ES7), Express.js, Node.js, Nestjs, numerous services within Amazon Web Services (AWS).</p>
+        <p>
+          Aspiring Engineering Manager and a Senior Engineer with over a decade of experience leading software development and engineering teams. 
+          Adept at pioneering innovative solutions in web applications and automated loan platforms, utilizing a wide array of technologies including TypeScript, NextJs, and AWS services. 
+          Proven track record in mentoring and fostering cross-functional collaboration, driving efficiency, and ensuring high-quality product delivery.
+        </p>
       </div>
       <div className="portfolio__header-image">
         <img src={pinank} alt="Pinank"/>
