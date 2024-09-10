@@ -4,6 +4,18 @@ import './resume.css'
 
 const featuresData = [
   {
+    title: `Senior Software Engineer
+    Grubhub
+    Remote`,
+    subtitle: '2022 to Present',
+    text: `Pioneered diner-facing web app enhancements by leading bottom of funnel team, revolutionizing menu, checkout, carting and payment systems for seamless user experience and operational efficiency.
+    Authored comprehensive RFC and ARC documents, proposing innovative features and contributing strategic insights in key business review meetings.
+    Fostered cross-functional partnerships with experimentation, product, and QA teams, ensuring product quality and robust post-production monitoring with Clickstream, Google Tag Manager, Tealium, Sentry, Splunk.
+    Optimized performance using New Relic and Datadog, implementing data-driven strategies to boost application efficiency and user satisfaction.
+    Spearheaded diner-facing web app development, focusing on menu, checkout, and payment systems to enhance user experience and streamline operations.
+    Mentored junior engineers, facilitating career growth and managing team dynamics through effective scrum ceremonies and backlog grooming`,
+  },
+  {
     title: `Team Leader, Engineering
     Rocket Loans
     Detroit, MI`,
