@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { RiMenu3Line, RiCloseLine, RiDownload2Fill } from 'react-icons/ri'
 import logo from '../../assets/PinankLogo.png'
-import resumepdf from '../..assets/Pinank-Dagli-Engineering Manager 2024.pdf'
+import resumepdf from '../../assets/Pinank-Dagli-Engineering Manager 2024.pdf'
 import './navbar.css';
 
 const Navbar = () => {
