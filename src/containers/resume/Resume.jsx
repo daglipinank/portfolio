@@ -63,7 +63,7 @@ const Resume = () => {
     <div id="workEx" className="portfolio__features section__padding">
       <div className="portfolio__features-heading">
         <h1 className="gradient__text">Work Experience</h1>
-        <p>From 2015 to Present</p>
+        <p>From 2013 to Present</p>
       </div>
       <div className="portfolio__features-container">
         {featuresData.map((item, index) => (
